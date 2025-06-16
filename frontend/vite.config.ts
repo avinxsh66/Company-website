@@ -5,11 +5,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    // Ensure the dev server handles SPA routing
-    historyApiFallback: true,
+    port: 3000,
+    open: true,
   },
   build: {
-    // Ensure the build output works for SPA routing
     outDir: 'dist',
     assetsDir: 'assets',
   },
