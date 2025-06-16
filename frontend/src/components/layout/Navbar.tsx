@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { AppBar, Toolbar, Box, Button, IconButton, Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-
-// ✅ Import the logo image
-import truwaveLogo from '../../assets/placeholders/truwavelogo.jpeg'; // adjust path as needed
+import truwaveLogo from '../../assets/placeholders/truwavelogo.jpeg'; 
 
 const navLinks = [
     { label: 'Home', sectionId: 'home' },
